@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--JazzBlocks required code-->
+<link rel="preload" href="./libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="./libraries/JazzBlocks.css">
+<link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+
+    <script src="./cardsagainstcomputers.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Against Computers</title>
+</head>
+<body onload="load()">
+    <h1 class="pc_l_u">Cards Against Computers</h1>
+    <h3 class="pc_m">This is an open-source, fan-made project.</h3>
+
+    <div><h2 class="pc_l" id="output">Press a button to start</h2></div>
+
+    <div id="actionbar">
+        <button class="buttonY" onclick="play1()">Play (1 card)</button>
+        <button class="buttonY" onclick="play2()">Play (2 cards)</button>
+        <button class="buttonY" onclick="play3()">Play (3 cards)</button>
+        <button class="buttonY" onclick="judge()">Judge</button>
+
+
+
+        <p class="pc_l" id="playernumber">0</p>
+        <p>
+            
+        <input type="text" id="playernumberinput" placeholder="" value="">
+        <button class="buttonY" onclick=" save1()">SAVE</button></p>
+    </div>
+    
+</body>
+</html>
