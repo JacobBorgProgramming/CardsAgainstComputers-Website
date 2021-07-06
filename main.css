@@ -88,3 +88,14 @@ header{
     position: sticky;
     top: 10px;
 }
+
+.headimg{
+    width: 150px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.headimg2{
+    width: 100px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}

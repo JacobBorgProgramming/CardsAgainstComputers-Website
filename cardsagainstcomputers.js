@@ -36,3 +36,5 @@ setInterval(function() {
     localStorage["numberofplayers"] = document.getElementById("playernumber").innerHTML; // 
 
   }, 1000);
+
+ 
