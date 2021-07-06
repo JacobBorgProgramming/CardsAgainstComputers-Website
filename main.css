@@ -57,6 +57,8 @@ a:hover{
 }
 
 .banner{
+    position: fixed;
+    top: 10px;
     box-shadow: 0mm 0mm 0mm #1a1a1a;
 }
 .banner:hover{
@@ -81,4 +83,8 @@ code{
     border-radius: 2mm;
     padding: 4mm;
 
+}
+header{
+    position: sticky;
+    top: 10px;
 }
