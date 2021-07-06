@@ -3,11 +3,11 @@ function play1(){
     }
 
 function play2(){
-    document.getElementById("output").innerHTML = "I will play cards " +Math.floor(Math.random() * 7+1) +"and"+Math.floor(Math.random() * 6+1);
+    document.getElementById("output").innerHTML = "I will play cards " +Math.floor(Math.random() * 7+1) +" and "+Math.floor(Math.random() * 6+1);
     }
 
 function play3(){
-    document.getElementById("output").innerHTML = "I will play cards " +Math.floor(Math.random() * 7+1) +","+Math.floor(Math.random() * 6+1)+"and"+Math.floor(Math.random() * 5+1);
+    document.getElementById("output").innerHTML = "I will play cards " +Math.floor(Math.random() * 7+1) +", "+Math.floor(Math.random() * 6+1)+" and "+Math.floor(Math.random() * 5+1);
     }
 
 function judge(){
