@@ -8,9 +8,11 @@ This is an open-source tool that is free for anyone to use or expand if you choo
 
 There is a Python offline version and a JavaScript online version.
 
-## Compatible Games
 
-Cards Against Humanity
 
-Apples to Apples
+Cards Against Humanity requires that artwork and other projects use the Creative Commons BY-NC-SA 4.0 license.
+
+Find the license below
+
+https://creativecommons.org/licenses/by-nc-sa/4.0/
 
