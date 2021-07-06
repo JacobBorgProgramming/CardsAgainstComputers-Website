@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap');
+
+html{
+    background-color: #343546;
+    color: #fff;
+    font-family: 'Literata', serif;
+}
+a{
+    color: white;
+}
+
+a:hover{
+    color: #cecece;
+}
+
+#playernumberinput{
+    height: 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 2mm;
+}
+
+.cacbutton1{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #343546;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2mm;
+    font-size: 5mm;
+    color: #fff;
+    border-color: #fff;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.3s;
+}
+.cacbutton1:hover{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #343546;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2mm;
+    font-size: 5mm;
+    color: #cecece;
+    border-color: #cecece;
+    cursor: pointer;
+    box-shadow: 0mm 0mm 5mm #1a1a1a;
+}
+.cacbutton1:active{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #343546;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2mm;
+    font-size: 5mm;
+    color: #cecece;
+    border-color: #cecece;
+    box-shadow: 0mm 0mm 5mm #000;
+}
+
+.banner{
+    box-shadow: 0mm 0mm 0mm #1a1a1a;
+}
+.banner:hover{
+    box-shadow: 0mm 0mm 5mm #1a1a1a;
+}
+.banner:active{
+    box-shadow: 0mm 0mm 5mm #000;
+}
+
+code{
+    color: red;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2mm;
+    padding: 4mm;
+
+}
+.dialogue{
+    color: rgb(37, 184, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2mm;
+    padding: 4mm;
+
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--JazzBlocks required code-->
+<link rel="preload" href="./libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="./libraries/JazzBlocks.css">
+<link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+<link rel="stylesheet" href="./main.css">
+<link rel="icon" type="image/png" href="./icons/cac2.png"/>
+    <script src="./cardsagainstcomputers.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Against Computers</title>
+
+
+
+
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="jborg_arts" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+</head>
+<body onload="load()">
+    <h1 class="pc_l_u"><a href="./index.html"><img src="./icons/cac3.png" width="150px"></a></h1>
+    <h3 class="pc_m">This is an <a href="https://github.com/JacobBorgProgramming/CardsAgainstComputers-Website" target="_BLANK">open-source</a>, fan-made project.</h3>
+
+    <div><h2 class="pc_l" id="output">Python User Guide</h2>
+    <p class="pc_l_u">Required Software:</p>
+    <p class="pc_m">IDLE and Python Launcher</p>
+    <p class="pc_m">These can be downloaded on the Python website</p>
+    <p class="pc_m"><a href="https://www.python.org/downloads/" target="_BLANK">Python.org</a></p>
+    
+    <p class="pc_l_u">How to setup the script:</p>
+    <p class="pc_m">First of all, you will need to decide the number of players (Humans + computers) and input that into the Python script and then save it.</p>
+        <p><img width="65%" src="./python1.png" alt=""></p>
+    <p class="pc_m">EXAMPLE: If you have 5 players, the “playedcards” library should read:</p>
+    <code>
+        playedcards = [“1”,”2","3","4","5"]
+    </code>
+    <p class="pc_l_u">How to play:</p>
+    <p class="pc_m">Open the “cardsagainstcomputers.py” script with IDLE and then hit the “F5” key (You may need to push or hold the “FN” or “Function” key first). This will auto run the script.</p>
+
+    <p class="pc_m">Once the script is running, the console will print:</p>
+
+    <code class="dialogue">
+        What am I doing...
+    </code>
+
+    <p class="pc_m"> The dealer will then type in either “judging”, “playing”, “playing2”, or “playing3”. (Depends on the number of cards the computer needs to pick)</p>
+    <p class="pc_m">The computer will then select a card (Or cards). The computer selects cards left-to-right looking out from its screen.</p>
+    <p><img width="65%" src="./computervision.png" alt=""></p>
+    <p class="pc_m">If the computer is selecting multiple, the dealer will need to remove a card then type in “next” for the computer to make its next selection.</p>
+    <p class="pc_m"> At the beginning of every computer turn, the dealer will need to run this script.</p>
+    
+    <p class="pc_l_u">Functions:</p>
+    <p class="pc_m_u">Judging:</p>
+    <p class="pc_m"> This function will allow the computer to select a player that wins (It is essentially random at this type).</p>
+    <p class="pc_m_u">playing:</p>
+    <p class="pc_m">This will randomly select one of the seven cards dealt to the computer.</p>
+    <p class="pc_m_u">playing2:</p>
+    <p class="pc_m"> This will randomly select two cards from the computer’s hand.</p>
+    <p class="pc_m_u">playing3:</p>
+    <p class="pc_m"> This will randomly select three cards from the computer’s hand.</p>
+
+<p class="pc_m"> You can also view a PDF version of this guide!</p>
+<p class="pc_m"><a target="_BLANK" href="./CardsAgainstComputersUserguide.pdf"><button class="cacbutton1">PDF version</button></a></p>
+</div>
+
+    
+</body>
+<footer style="padding: 10mm;">
+    <center>
+        <p><a href="https://twitter.com/jborg_arts" target="_BLANK"><img width="50px" src="./icons/twitter.svg" alt="Twitter Link"></a><a href="https://github.com/JacobBorgProgramming" target="_BLANK"><img width="50px" src="./icons/github.svg" alt="Github link"></a></p>
+        <p class="pc_s">a Jacob Borg project</p>
+        <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="jborg_arts" data-color="#5F7FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
+    </center>
+</footer>
+</html>

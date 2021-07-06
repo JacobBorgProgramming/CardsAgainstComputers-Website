@@ -9,6 +9,7 @@
 <link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
 <link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
 <!--end-->
+<link rel="stylesheet" href="./main.css">
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Cards Against Computers">
@@ -31,17 +32,19 @@
 
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="jborg_arts" data-description="Support me on Buy me a coffee!" data-message="" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 </head>
+
+<header class="pc_l_u"><a href="./about.html"><img src="./icons/cac3.png" width="150px"></a></h1></header>
+
 <body onload="load()">
-    <h1 class="pc_l_u"><a href="./about.html">Cards Against Computers</a></h1>
     <h3 class="pc_m">This is an <a href="https://github.com/JacobBorgProgramming/CardsAgainstComputers-Website" target="_BLANK">open-source</a>, fan-made project.</h3>
 
     <div><h2 class="pc_l" id="output">Press a button to start</h2></div>
 
     <div id="actionbar">
-        <button class="buttonY" onclick="play1()">Play (1 card)</button>
-        <button class="buttonY" onclick="play2()">Play (2 cards)</button>
-        <button class="buttonY" onclick="play3()">Play (3 cards)</button>
-        <button class="buttonY" onclick="judge()">Judge</button>
+        <button class="cacbutton1" onclick="play1()">Play (1 card)</button>
+        <button class="cacbutton1" onclick="play2()">Play (2 cards)</button>
+        <button class="cacbutton1" onclick="play3()">Play (3 cards)</button>
+        <button class="cacbutton1" onclick="judge()">Judge</button>
 
 
 
@@ -49,7 +52,7 @@
         <p>
             <p class="pc_m_u">Input # of players below</p>
         <input type="text" id="playernumberinput" placeholder="" value="">
-        <button class="buttonY" onclick=" save1()">SAVE</button></p>
+        <button class="cacbutton1" onclick=" save1()">SAVE</button></p>
     </div>
     
 </body>
