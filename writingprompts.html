@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!--JazzBlocks required code-->
+<link rel="preload" href="./libraries/JazzBlocks.css" as="style">
+<link rel="stylesheet" href="./libraries/JazzBlocks.css">
+<link rel="preload" href="./libraries/JazzBlocksFunctions.js" as="script">
+<link rel="preload" href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" as="style">
+<link href="https://fonts.googleapis.com/css?family=Chilanka|La+Belle+Aurore|Literata|Oswald|Ubuntu&display=swap" rel="stylesheet">
+<!--end-->
+<link rel="stylesheet" href="./main.css">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Cards Against Computers">
+<meta name="twitter:description" content="A tool for when you need just one more players.">
+<meta name="twitter:image" content="https://cardsagainstcomputers.jacobborgprogramming.net/icons/cac1.png">
+
+
+
+
+    <link rel="icon" type="image/png" href="./icons/cac2.png"/>
+    <script src="./writingprompts.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Against Computers</title>
+
+
+
+
+
+</head>
+
+<header class="pc_l_u"><a href="./about.html"><img width="150px" src="./icons/cac3.png"></a></h1></header>
+
+<body onload="load()">
+    <h3 class="pc_m">This is an <a href="https://github.com/JacobBorgProgramming/CardsAgainstComputers-Website" target="_BLANK">open-source</a>, fan-made project.</h3>
+
+    <div><h2 class="pc_l" id="output">Press a button to generate a promt</h2></div>
+
+    <div id="actionbar">
+        <button class="cacbutton1" onclick="generatesubject()">Generate subject</button>
+        <button class="cacbutton1" onclick="generateaction()">Generate action</button>
+
+
+
+        <p class="pc_l" hidden># of players: <span id="playernumber">0</span></p>
+        <p>
+            <p class="pc_m_u">Input # of players below</p>
+        <input type="text" id="playernumberinput" placeholder="" value="">
+        <button class="cacbutton1" onclick=" save1()">SAVE</button></p>
+    </div>
+    
+</body>
+<footer style="padding: 10mm;">
+    <center>
+        <p><a href="./guide.html">User Guide</a></p>
+        <p><a href="https://twitter.com/jborg_arts" target="_BLANK"><img width="50px" src="./icons/twitter.svg" alt="Twitter Link"></a><a href="https://github.com/JacobBorgProgramming" target="_BLANK"><img width="50px" src="./icons/github.svg" alt="Github link"></a></p>
+        <p class="pc_s">Not affiliated with the official Cards Against Humanity company</p>
+        <p class="pc_m"><a href="https://github.com/JacobBorgProgramming/CardsAgainstComputers-Website/blob/main/LICENSE.md" target="_BLANK">Creative Commons BY-NC-SA 4.0</a></p>
+    </center>
+</footer>
+</html>

@@ -11,7 +11,7 @@ function play3(){
     }
 
 function judge(){
-    var players = document.getElementById("playernumberinput").value-1;
+    var players = document.getElementById("playernumberinput").value;
     document.getElementById("output").innerHTML = "I pick " +Math.floor(Math.random() * players+1);;
     }
 
